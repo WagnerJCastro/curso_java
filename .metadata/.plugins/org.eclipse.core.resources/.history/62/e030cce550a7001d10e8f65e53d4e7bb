@@ -1,0 +1,22 @@
+package classes;
+
+public class DataTesteMetodo {
+
+public static void main(String[] args) {
+		
+		DataMetodo d1 = new DataMetodo();
+		d1.dia = 03;
+		d1.mes = 07;
+		d1.ano = 1994;
+		
+		var d2 = new DataMetodo();
+		d2.dia = 16;
+		d2.mes = 07;
+		d2.ano = 1997;
+		
+		System.out.printf("A data é %s\n", d1.obterDataFormatada());
+		
+		System.out.printf("A data é %s", d2.obterDataFormatada());
+		
+	}
+}

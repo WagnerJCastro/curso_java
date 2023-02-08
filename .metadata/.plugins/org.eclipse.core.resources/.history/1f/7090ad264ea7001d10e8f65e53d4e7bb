@@ -1,0 +1,31 @@
+package classes;
+
+public class ProdutoTesteMetodo {
+
+	public static void main(String[] args) {
+		//uma classe no mesmo pacote não precisa ser importada
+		
+		
+		//Você pode alterar as informações de uma classe importada dessa maneira:
+		Produto p1 = new Produto();
+		p1.nome = "Notebook";
+		p1.preco = 4356.89;
+		p1.desconto = 0.25;
+		
+		
+		//uma variavel tambem pode ser do tipo "Produto"
+		var p2 = new Produto();
+		p2.nome = "Caneta Preta";
+		p2.preco = 12.56;
+		p2.desconto = 0.29;
+		
+		System.out.println(p1.nome);
+		double p1valor = p1.preco* (1 - p1.desconto);
+		System.out.printf("Preço do produto com desconto: R$%.2f \n", p1valor);
+		
+		System.out.println(p2.nome);
+		double p2valor = p2.preco* (1 - p2.desconto);
+		System.out.printf("Preço do produto com desconto: R$%.2f", p2valor);
+		
+	}
+}

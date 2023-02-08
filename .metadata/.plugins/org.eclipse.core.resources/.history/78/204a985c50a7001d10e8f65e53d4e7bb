@@ -1,0 +1,16 @@
+package classes;
+
+public class DataMetodo {
+
+	int dia;
+	int mes;
+	int ano;
+	
+	String obterDataFormatada(){
+		String diaS = Integer.toString(dia);
+		String mesS = Integer.toString(mes);
+		String anoS = Integer.toString(ano);
+		return diaS +"/" + mesS +"/" + anoS;
+	
+	}
+}
