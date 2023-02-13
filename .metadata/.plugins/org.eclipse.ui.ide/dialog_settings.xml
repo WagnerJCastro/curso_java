@@ -2,4 +2,7 @@
 <section name="Workbench">
 	<section name="NewWizardAction">
 	</section>
+	<section name="org.eclipse.ui.internal.ide.dialogs.ProjectContentsLocationArea">
+		<item key="OUTSIDE_LOCATION" value="C:\Users\Wagner Castro\Desktop\curso_java_gama"/>
+	</section>
 </section>
